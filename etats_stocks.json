@@ -1,0 +1,272 @@
+{
+  "72190003": {
+    "etats": {
+      "sp95": "def",
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
+    },
+    "adresse": "A11 - AIRE SARTHE SARGE LE MANS SUD",
+    "ville": "Sargé-lès-le-Mans"
+  },
+  "72000019": {
+    "etats": {
+      "sp95": "temp",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "314 AV RHIN ET DANUBE",
+    "ville": "Le Mans"
+  },
+  "72650002": {
+    "etats": {
+      "sp95": "def",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "RN 157 - LE RELAIS DE LA LANDE",
+    "ville": "Trangé"
+  },
+  "72440002": {
+    "etats": {
+      "sp95": null,
+      "e10": "dispo",
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "1 Rue Nationale",
+    "ville": "Bouloire"
+  },
+  "72100013": {
+    "etats": {
+      "sp95": "def",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "dispo"
+    },
+    "adresse": "RN 23 - AERODROME",
+    "ville": "Le Mans"
+  },
+  "72220002": {
+    "etats": {
+      "sp95": "def",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "LE SOLEIL",
+    "ville": "Écommoy"
+  },
+  "72000021": {
+    "etats": {
+      "sp95": "def",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "dispo"
+    },
+    "adresse": "ROUTE DE LAVAL",
+    "ville": "Le Mans"
+  },
+  "72100012": {
+    "etats": {
+      "sp95": "def",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "146 AVENUE DU DR JEAN MAC",
+    "ville": "Le Mans"
+  },
+  "72000010": {
+    "etats": {
+      "sp95": "temp",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "44 Rue de Bonnétable",
+    "ville": "Le Mans"
+  },
+  "72130006": {
+    "etats": {
+      "sp95": "def",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "6 AVENUE DIVISION LECLERC",
+    "ville": "Fresnay-sur-Sarthe"
+  },
+  "72550002": {
+    "etats": {
+      "sp95": "def",
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
+    },
+    "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
+    "ville": "Chaufour-Notre-Dame"
+  },
+  "72190004": {
+    "etats": {
+      "sp95": "def",
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
+    },
+    "adresse": "A11-AIRE SARTHE SARGE LE MANS NORD",
+    "ville": "Sargé-lès-le-Mans"
+  },
+  "72200003": {
+    "etats": {
+      "sp95": "def",
+      "e10": "dispo",
+      "sp98": "def",
+      "gazole": "dispo"
+    },
+    "adresse": "Avenue de Verdun",
+    "ville": "La Flèche"
+  },
+  "72470004": {
+    "etats": {
+      "sp95": "def",
+      "e10": null,
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "RN 23 - LES FOSSES",
+    "ville": "Champagné"
+  },
+  "72170004": {
+    "etats": {
+      "sp95": "def",
+      "e10": "temp",
+      "sp98": "def",
+      "gazole": "dispo"
+    },
+    "adresse": "GARE DE PEAGE MARESCHE A28",
+    "ville": "Maresché"
+  },
+  "72220001": {
+    "etats": {
+      "sp95": "def",
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
+    },
+    "adresse": "CENTRE COMMERCIAL LE BELINOIS",
+    "ville": "Écommoy"
+  },
+  "72120003": {
+    "etats": {
+      "sp95": "temp",
+      "e10": "def",
+      "sp98": "def",
+      "gazole": "temp"
+    },
+    "adresse": "7 Avenue Charles de Gaulle",
+    "ville": "Saint-Calais"
+  },
+  "72000001": {
+    "etats": {
+      "sp95": "def",
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
+    },
+    "adresse": "2 Rue de Bonnétable",
+    "ville": "Le Mans"
+  },
+  "72100004": {
+    "etats": {
+      "sp95": "def",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "AVENUE FELIX GENESLAY",
+    "ville": "Le Mans"
+  },
+  "72350001": {
+    "etats": {
+      "sp95": "def",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "dispo"
+    },
+    "adresse": "ROUTE DE SILLE",
+    "ville": "Brûlon"
+  },
+  "72300009": {
+    "etats": {
+      "sp95": "def",
+      "e10": "dispo",
+      "sp98": "temp",
+      "gazole": "dispo"
+    },
+    "adresse": "LE PETIT ERABLE, ROUTE DE LAVAL",
+    "ville": "Sablé-sur-Sarthe"
+  },
+  "72301001": {
+    "etats": {
+      "sp95": "temp",
+      "e10": "dispo",
+      "sp98": "temp",
+      "gazole": "dispo"
+    },
+    "adresse": "Avenue Jean Monnet",
+    "ville": "Solesmes"
+  },
+  "72000020": {
+    "etats": {
+      "sp95": "def",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "162, AVENUE BOLLEE",
+    "ville": "Le Mans"
+  },
+  "72800003": {
+    "etats": {
+      "sp95": "def",
+      "e10": "dispo",
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "9936 AVENUE DE TALHOUET",
+    "ville": "Le Lude"
+  },
+  "72100014": {
+    "etats": {
+      "sp95": "temp",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": null
+    },
+    "adresse": "110 -112 BLD DEMORIEUX",
+    "ville": "Le Mans"
+  },
+  "72310002": {
+    "etats": {
+      "sp95": "dispo",
+      "e10": "def",
+      "sp98": "def",
+      "gazole": "dispo"
+    },
+    "adresse": "47 rue du bal de braye",
+    "ville": "Bessé-sur-Braye"
+  },
+  "72500005": {
+    "etats": {
+      "sp95": "def",
+      "e10": "def",
+      "sp98": "temp",
+      "gazole": "temp"
+    },
+    "adresse": "27 ROUTE DU MANS",
+    "ville": "Luceau"
+  }
+}
