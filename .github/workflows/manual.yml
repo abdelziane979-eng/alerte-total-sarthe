@@ -1,0 +1,39 @@
+name: Alerte Total Sarthe
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  run-alerte:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests Pillow
+
+      - name: Run script
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python alerte_total_sarthe.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "ci@github.com"
+          git config --global user.name "Alerte Bot"
+          git add alertes_envoyees.json stations_total_cache.json etats_stocks.json recap_dernier.json public/ 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "MAJ auto"
+            git push
+          fi
