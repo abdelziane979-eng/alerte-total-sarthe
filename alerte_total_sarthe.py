@@ -15,7 +15,7 @@ from zoneinfo import ZoneInfo
 # CONFIGURATION
 # ============================================================
 
-import os
+
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "total72-lemans-z2a9n4k7")
 SEUIL_PRIX = 2.00
 DISTANCE_MAX_METRES = 150
