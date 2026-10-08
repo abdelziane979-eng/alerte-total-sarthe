@@ -12,7 +12,7 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -22,7 +22,7 @@
   "72650002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -32,9 +32,9 @@
   "72440002": {
     "etats": {
       "sp95": null,
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "1 Rue Nationale",
     "ville": "Bouloire"
@@ -43,8 +43,8 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": null,
-      "gazole": "dispo"
+      "sp98": "temp",
+      "gazole": null
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -53,7 +53,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "LE SOLEIL",
@@ -73,7 +73,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
@@ -82,7 +82,7 @@
   "72000010": {
     "etats": {
       "sp95": "temp",
-      "e10": null,
+      "e10": "temp",
       "sp98": "temp",
       "gazole": null
     },
@@ -92,9 +92,9 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
-      "gazole": "dispo"
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
     "ville": "Fresnay-sur-Sarthe"
@@ -103,7 +103,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
@@ -133,7 +133,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "RN 23 - LES FOSSES",
@@ -161,10 +161,10 @@
   },
   "72120003": {
     "etats": {
-      "sp95": "temp",
+      "sp95": "dispo",
       "e10": "def",
       "sp98": "def",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "7 Avenue Charles de Gaulle",
     "ville": "Saint-Calais"
@@ -224,7 +224,7 @@
       "sp95": "def",
       "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "162, AVENUE BOLLEE",
     "ville": "Le Mans"

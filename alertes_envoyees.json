@@ -103,5 +103,10 @@
     "ville": "Le Mans",
     "adresse": "110 -112 BLD DEMORIEUX",
     "derniere_alerte": "2026-10-08T07:33:33.877126"
+  },
+  "72120003": {
+    "ville": "Saint-Calais",
+    "adresse": "7 Avenue Charles de Gaulle",
+    "derniere_alerte": "2026-10-08T14:54:39.805227"
   }
 }
