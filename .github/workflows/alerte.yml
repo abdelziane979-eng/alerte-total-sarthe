@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --global user.email "ci@github.com"
           git config --global user.name "Alerte Bot"
-          git add alertes_envoyees.json stations_total_cache.json etats_stocks.json recap_dernier.json public/ 2>/dev/null || true
+          git add alertes_envoyees.json stations_total_cache.json etats_stocks.json recap_dernier.json index.html icon-192.png icon-512.png manifest.json 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "MAJ auto"
             git push
