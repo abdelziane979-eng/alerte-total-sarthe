@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Alerte TotalEnergies < 2€/L — Sarthe (72)
-+ page web + recap quotidien
++ page web + recap quotidien + icones PNG (version GitHub racine)
 """
 
 import requests
@@ -10,11 +10,11 @@ import math
 import os
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from PIL import Image, ImageDraw
 
 # ============================================================
 # CONFIGURATION
 # ============================================================
-
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "total72-lemans-z2a9n4k7")
 SEUIL_PRIX = 2.00
@@ -23,8 +23,8 @@ FICHIER_MEMOIRE = "alertes_envoyees.json"
 FICHIER_CACHE = "stations_total_cache.json"
 FICHIER_STOCKS = "etats_stocks.json"
 FICHIER_RECAP = "recap_dernier.json"
-DOSSIER_PUBLIC = "public"
-HEURE_RECAP = 8  # 8h heure de Paris
+DOSSIER_PUBLIC = "."
+HEURE_RECAP = 8
 
 # ============================================================
 
@@ -42,6 +42,61 @@ def charger_json(fichier, defaut):
 def sauvegarder_json(fichier, data):
     with open(fichier, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def creer_icones_png():
+    """Genere les icones PNG 192x192 et 512x512."""
+    for taille in (192, 512):
+        img = Image.new("RGBA", (taille, taille), (0, 0, 0, 0))
+        draw = ImageDraw.Draw(img)
+
+        marge = taille // 16
+        draw.rounded_rectangle(
+            [marge, marge, taille - marge, taille - marge],
+            radius=taille // 8,
+            fill=(204, 0, 0, 255),
+        )
+
+        x1 = int(taille * 0.28)
+        y1 = int(taille * 0.20)
+        x2 = int(taille * 0.62)
+        y2 = int(taille * 0.80)
+        draw.rectangle([x1, y1, x2, y2], fill=(255, 255, 255, 255))
+
+        w1 = int(taille * 0.36)
+        w2 = int(taille * 0.54)
+        w3 = int(taille * 0.32)
+        w4 = int(taille * 0.44)
+        draw.rectangle([w1, w3, w2, w4], fill=(204, 0, 0, 255))
+
+        b1 = int(taille * 0.62)
+        b2 = int(taille * 0.78)
+        b3 = int(taille * 0.30)
+        b4 = int(taille * 0.38)
+        draw.rectangle([b1, b3, b2, b4], fill=(255, 255, 255, 255))
+
+        img.save(f"icon-{taille}.png")
+        print(f"   Icone {taille}x{taille} generee")
+
+
+def creer_manifest():
+    """Cree le manifest.json pour l'installation mobile."""
+    manifest = {
+        "name": "Alerte Total Sarthe",
+        "short_name": "Alerte Total",
+        "description": "Alerte carburant TotalEnergies < 2 EUR/L en Sarthe",
+        "start_url": "./",
+        "display": "standalone",
+        "background_color": "#ffffff",
+        "theme_color": "#cc0000",
+        "icons": [
+            {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+            {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"},
+        ],
+    }
+    with open("manifest.json", "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+    print(f"   Manifest cree")
 
 
 def envoyer_notification(titre, message, priorite="max"):
@@ -173,9 +228,23 @@ def verifier_prix(station):
     return resultats
 
 
-def generer_page_html(stations_sous_seuil, chemin="public/index.html"):
-    os.makedirs(os.path.dirname(chemin), exist_ok=True)
+def carburants_en_rupture(station):
+    ruptures = []
+    for champ, nom in [
+        ("sp95_rupture_type", "SP95"),
+        ("e10_rupture_type", "E10"),
+        ("sp98_rupture_type", "SP98"),
+        ("gazole_rupture_type", "Gazole"),
+    ]:
+        type_r = station.get(champ)
+        if type_r == "temporaire":
+            ruptures.append(f"{nom} (temporaire)")
+        elif type_r == "definitive":
+            ruptures.append(f"{nom} (definitive)")
+    return ruptures
 
+
+def generer_page_html(stations_sous_seuil, chemin="index.html"):
     paris = datetime.now(ZoneInfo("Europe/Paris"))
     date_heure = paris.strftime("%d/%m/%Y a %Hh%M")
 
@@ -205,17 +274,27 @@ def generer_page_html(stations_sous_seuil, chemin="public/index.html"):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alerte Total Sarthe</title>
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#cc0000">
 <style>
   * {{ box-sizing: border-box; }}
   body {{ font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-         margin: 0; padding: 16px; background: #f0f2f5; color: #222; }}
+         margin: 0; padding: 16px; background: #f0f2f5; color: #222;
+         display: flex; flex-direction: column; align-items: center; }}
+  header, h2, .stations, .date {{ width: 100%; max-width: 700px; }}
   header {{ background: linear-gradient(135deg, #c00, #900);
             color: white; padding: 20px; border-radius: 12px;
             margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }}
   h1 {{ margin: 0; font-size: 1.4em; }}
   .compteur {{ margin-top: 8px; font-size: 1.1em; opacity: 0.95; }}
-  .station {{ background: white; padding: 14px; margin-bottom: 10px;
-              border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }}
+  .stations {{ display: grid; gap: 10px; grid-template-columns: 1fr; }}
+  @media (min-width: 600px) {{
+    .stations {{ grid-template-columns: 1fr 1fr; }}
+  }}
+  .station {{ background: white; padding: 14px; border-radius: 10px;
+              box-shadow: 0 1px 4px rgba(0,0,0,0.08); }}
   .ville {{ font-weight: bold; font-size: 1.1em; color: #c00; }}
   .cp {{ font-weight: normal; color: #888; font-size: 0.85em; }}
   .adresse {{ color: #555; font-size: 0.9em; margin: 4px 0 8px 0; }}
@@ -316,6 +395,10 @@ def main():
 
     print("-> Generation de la page web...")
     generer_page_html(stations_sous_seuil)
+
+    print("-> Generation des icones...")
+    creer_icones_png()
+    creer_manifest()
 
     retours = []
     for sid, info in stations_total.items():
