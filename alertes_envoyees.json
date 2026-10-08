@@ -63,5 +63,45 @@
     "ville": "Bessé-sur-Braye",
     "adresse": "47 rue du bal de braye",
     "derniere_alerte": "2026-09-25T22:36:01.248590"
+  },
+  "72000019": {
+    "ville": "Le Mans",
+    "adresse": "314 AV RHIN ET DANUBE",
+    "derniere_alerte": "2026-10-08T07:33:33.877098"
+  },
+  "72650002": {
+    "ville": "Trangé",
+    "adresse": "RN 157 - LE RELAIS DE LA LANDE",
+    "derniere_alerte": "2026-10-08T07:33:33.877109"
+  },
+  "72000021": {
+    "ville": "Le Mans",
+    "adresse": "ROUTE DE LAVAL",
+    "derniere_alerte": "2026-10-08T07:33:33.877113"
+  },
+  "72470004": {
+    "ville": "Champagné",
+    "adresse": "RN 23 - LES FOSSES",
+    "derniere_alerte": "2026-10-08T07:33:33.877116"
+  },
+  "72170004": {
+    "ville": "Maresché",
+    "adresse": "GARE DE PEAGE MARESCHE A28",
+    "derniere_alerte": "2026-10-08T07:33:33.877119"
+  },
+  "72100004": {
+    "ville": "Le Mans",
+    "adresse": "AVENUE FELIX GENESLAY",
+    "derniere_alerte": "2026-10-08T07:33:33.877122"
+  },
+  "72000020": {
+    "ville": "Le Mans",
+    "adresse": "162, AVENUE BOLLEE",
+    "derniere_alerte": "2026-10-08T07:33:33.877124"
+  },
+  "72100014": {
+    "ville": "Le Mans",
+    "adresse": "110 -112 BLD DEMORIEUX",
+    "derniere_alerte": "2026-10-08T07:33:33.877126"
   }
 }

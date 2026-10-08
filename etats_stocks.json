@@ -12,9 +12,9 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -22,9 +22,9 @@
   "72650002": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "RN 157 - LE RELAIS DE LA LANDE",
     "ville": "Trangé"
@@ -32,7 +32,7 @@
   "72440002": {
     "etats": {
       "sp95": null,
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "temp"
     },
@@ -43,7 +43,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "temp",
+      "sp98": null,
       "gazole": "dispo"
     },
     "adresse": "RN 23 - AERODROME",
@@ -52,9 +52,9 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "LE SOLEIL",
     "ville": "Écommoy"
@@ -62,8 +62,8 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
+      "e10": "dispo",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "ROUTE DE LAVAL",
@@ -72,9 +72,9 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
     "ville": "Le Mans"
@@ -82,9 +82,9 @@
   "72000010": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": null,
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "44 Rue de Bonnétable",
     "ville": "Le Mans"
@@ -92,9 +92,9 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
     "ville": "Fresnay-sur-Sarthe"
@@ -102,8 +102,8 @@
   "72550002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
@@ -132,9 +132,9 @@
   "72470004": {
     "etats": {
       "sp95": "def",
-      "e10": null,
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "RN 23 - LES FOSSES",
     "ville": "Champagné"
@@ -142,7 +142,7 @@
   "72170004": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "def",
       "gazole": "dispo"
     },
@@ -182,9 +182,9 @@
   "72100004": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "AVENUE FELIX GENESLAY",
     "ville": "Le Mans"
@@ -192,7 +192,7 @@
   "72350001": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -203,7 +203,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "LE PETIT ERABLE, ROUTE DE LAVAL",
@@ -212,9 +212,9 @@
   "72301001": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "Avenue Jean Monnet",
     "ville": "Solesmes"
@@ -222,7 +222,7 @@
   "72000020": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "temp"
     },
@@ -233,8 +233,8 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
-      "gazole": "temp"
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "9936 AVENUE DE TALHOUET",
     "ville": "Le Lude"
@@ -242,9 +242,9 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"

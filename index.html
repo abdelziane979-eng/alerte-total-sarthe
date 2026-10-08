@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alerte Total Sarthe</title>
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#cc0000">
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+         margin: 0; padding: 16px; background: #f0f2f5; color: #222;
+         display: flex; flex-direction: column; align-items: center; }
+  header, h2, .stations, .date { width: 100%; max-width: 700px; }
+  header { background: linear-gradient(135deg, #c00, #900);
+            color: white; padding: 20px; border-radius: 12px;
+            margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  h1 { margin: 0; font-size: 1.4em; }
+  .compteur { margin-top: 8px; font-size: 1.1em; opacity: 0.95; }
+  .stations { display: grid; gap: 10px; grid-template-columns: 1fr; }
+  @media (min-width: 600px) {
+    .stations { grid-template-columns: 1fr 1fr; }
+  }
+  .station { background: white; padding: 14px; border-radius: 10px;
+              box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .ville { font-weight: bold; font-size: 1.1em; color: #c00; }
+  .cp { font-weight: normal; color: #888; font-size: 0.85em; }
+  .adresse { color: #555; font-size: 0.9em; margin: 4px 0 8px 0; }
+  .carburant { font-size: 0.95em; padding: 2px 0; }
+  .prix { color: #090; font-weight: bold; }
+  .rupture { color: #c00; font-size: 0.85em; margin-top: 6px;
+              font-style: italic; }
+  .date { text-align: center; color: #888; font-size: 0.85em;
+           margin: 20px 0; }
+  .vide { background: white; padding: 30px; text-align: center;
+           border-radius: 10px; color: #666; }
+</style>
+</head>
+<body>
+<header>
+  <h1>TotalEnergies Sarthe &lt; 2 EUR/L</h1>
+  <div class="compteur">18 station(s) en ce moment</div>
+</header>
+
+        <div class="station">
+            <div class="ville">Bessé-sur-Braye <span class="cp">(72310)</span></div>
+            <div class="adresse">47 rue du bal de braye</div>
+            <div class="carburant">SP95 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Brûlon <span class="cp">(72350)</span></div>
+            <div class="adresse">ROUTE DE SILLE</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Champagné <span class="cp">(72470)</span></div>
+            <div class="adresse">RN 23 - LES FOSSES</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div><div class="carburant">SP98 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Fresnay-sur-Sarthe <span class="cp">(72130)</span></div>
+            <div class="adresse">6 AVENUE DIVISION LECLERC</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div><div class="carburant">SP98 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">La Flèche <span class="cp">(72200)</span></div>
+            <div class="adresse">Avenue de Verdun</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Le Lude <span class="cp">(72800)</span></div>
+            <div class="adresse">9936 AVENUE DE TALHOUET</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div><div class="carburant">SP98 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Le Mans <span class="cp">(72000)</span></div>
+            <div class="adresse">314 AV RHIN ET DANUBE</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Le Mans <span class="cp">(72000)</span></div>
+            <div class="adresse">ROUTE DE LAVAL</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div><div class="carburant">SP98 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Le Mans <span class="cp">(72100)</span></div>
+            <div class="adresse">146 AVENUE DU DR JEAN MAC</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Le Mans <span class="cp">(72100)</span></div>
+            <div class="adresse">AVENUE FELIX GENESLAY</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div><div class="carburant">SP98 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Le Mans <span class="cp">(72000)</span></div>
+            <div class="adresse">162, AVENUE BOLLEE</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Le Mans <span class="cp">(72100)</span></div>
+            <div class="adresse">110 -112 BLD DEMORIEUX</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Maresché <span class="cp">(72170)</span></div>
+            <div class="adresse">GARE DE PEAGE MARESCHE A28</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Sablé-sur-Sarthe <span class="cp">(72300)</span></div>
+            <div class="adresse">LE PETIT ERABLE, ROUTE DE LAVAL</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div><div class="carburant">SP98 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Sargé-lès-le-Mans <span class="cp">(72190)</span></div>
+            <div class="adresse">A11 - AIRE SARTHE SARGE LE MANS SUD</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div><div class="carburant">SP98 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Sargé-lès-le-Mans <span class="cp">(72190)</span></div>
+            <div class="adresse">A11-AIRE SARTHE SARGE LE MANS NORD</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div><div class="carburant">SP98 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Trangé <span class="cp">(72650)</span></div>
+            <div class="adresse">RN 157 - LE RELAIS DE LA LANDE</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+        <div class="station">
+            <div class="ville">Écommoy <span class="cp">(72220)</span></div>
+            <div class="adresse">LE SOLEIL</div>
+            <div class="carburant">E10 : <span class="prix">1.990 EUR/L</span></div>
+            
+        </div>
+<div class="date">Derniere mise a jour : 08/10/2026 a 09h33</div>
+</body>
+</html>

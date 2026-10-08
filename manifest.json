@@ -1,0 +1,22 @@
+{
+  "name": "Alerte Total Sarthe",
+  "short_name": "Alerte Total",
+  "description": "Alerte carburant TotalEnergies < 2 EUR/L en Sarthe",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#cc0000",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
