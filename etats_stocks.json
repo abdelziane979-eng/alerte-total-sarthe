@@ -13,7 +13,7 @@
     "etats": {
       "sp95": "temp",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "314 AV RHIN ET DANUBE",
@@ -24,7 +24,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "RN 157 - LE RELAIS DE LA LANDE",
     "ville": "Trangé"
@@ -43,8 +43,8 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "dispo",
-      "gazole": "dispo"
+      "sp98": "temp",
+      "gazole": null
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -64,7 +64,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "ROUTE DE LAVAL",
     "ville": "Le Mans"
@@ -83,7 +83,7 @@
     "etats": {
       "sp95": "temp",
       "e10": "temp",
-      "sp98": "temp",
+      "sp98": null,
       "gazole": null
     },
     "adresse": "44 Rue de Bonnétable",
@@ -92,9 +92,9 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
     "ville": "Fresnay-sur-Sarthe"
@@ -213,7 +213,7 @@
     "etats": {
       "sp95": "temp",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "Avenue Jean Monnet",
@@ -222,7 +222,7 @@
   "72000020": {
     "etats": {
       "sp95": "def",
-      "e10": null,
+      "e10": "temp",
       "sp98": "temp",
       "gazole": null
     },
@@ -233,8 +233,8 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
-      "gazole": "temp"
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "9936 AVENUE DE TALHOUET",
     "ville": "Le Lude"
@@ -242,19 +242,19 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
   },
   "72310002": {
     "etats": {
-      "sp95": "dispo",
+      "sp95": "temp",
       "e10": "def",
       "sp98": "def",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "47 rue du bal de braye",
     "ville": "Bessé-sur-Braye"
