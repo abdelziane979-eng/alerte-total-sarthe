@@ -12,9 +12,9 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
-      "sp98": "dispo",
-      "gazole": "dispo"
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -32,8 +32,8 @@
   "72440002": {
     "etats": {
       "sp95": null,
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "1 Rue Nationale",
@@ -52,9 +52,9 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
-      "gazole": "dispo"
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
     },
     "adresse": "LE SOLEIL",
     "ville": "Écommoy"
@@ -62,9 +62,9 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "ROUTE DE LAVAL",
     "ville": "Le Mans"
@@ -224,7 +224,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "temp"
     },
     "adresse": "162, AVENUE BOLLEE",
     "ville": "Le Mans"
@@ -242,9 +242,9 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
-      "sp98": "dispo",
-      "gazole": "dispo"
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
