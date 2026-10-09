@@ -108,5 +108,10 @@
     "ville": "Saint-Calais",
     "adresse": "7 Avenue Charles de Gaulle",
     "derniere_alerte": "2026-10-08T14:54:39.805227"
+  },
+  "72100013": {
+    "ville": "Le Mans",
+    "adresse": "RN 23 - AERODROME",
+    "derniere_alerte": "2026-10-09T06:41:15.249523"
   }
 }
