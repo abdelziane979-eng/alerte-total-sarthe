@@ -43,8 +43,8 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": null,
-      "gazole": null
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -72,9 +72,9 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": null,
-      "sp98": null,
-      "gazole": null
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
     "ville": "Le Mans"
@@ -242,7 +242,7 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": null,
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
