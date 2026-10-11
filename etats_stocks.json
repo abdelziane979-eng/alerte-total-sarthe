@@ -73,7 +73,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
@@ -222,9 +222,9 @@
   "72000020": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "162, AVENUE BOLLEE",
     "ville": "Le Mans"
@@ -243,7 +243,7 @@
     "etats": {
       "sp95": "temp",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": null,
       "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
