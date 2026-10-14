@@ -43,7 +43,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "temp",
+      "sp98": null,
       "gazole": null
     },
     "adresse": "RN 23 - AERODROME",
@@ -52,7 +52,7 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -62,7 +62,7 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -82,7 +82,7 @@
   "72000010": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": null,
       "sp98": "temp",
       "gazole": null
     },
@@ -92,7 +92,7 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "temp"
     },
@@ -161,7 +161,7 @@
   },
   "72120003": {
     "etats": {
-      "sp95": "temp",
+      "sp95": null,
       "e10": "def",
       "sp98": "def",
       "gazole": "dispo"
@@ -234,7 +234,7 @@
       "sp95": "def",
       "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "9936 AVENUE DE TALHOUET",
     "ville": "Le Lude"
