@@ -12,7 +12,7 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -22,7 +22,7 @@
   "72650002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -33,7 +33,7 @@
     "etats": {
       "sp95": null,
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "1 Rue Nationale",
@@ -44,7 +44,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -133,7 +133,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": null,
       "gazole": "dispo"
     },
     "adresse": "RN 23 - LES FOSSES",
