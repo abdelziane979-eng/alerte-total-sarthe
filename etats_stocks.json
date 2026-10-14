@@ -132,7 +132,7 @@
   "72470004": {
     "etats": {
       "sp95": "def",
-      "e10": null,
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
