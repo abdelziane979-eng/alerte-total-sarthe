@@ -62,7 +62,7 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -132,9 +132,9 @@
   "72470004": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": null,
+      "sp98": null,
+      "gazole": null
     },
     "adresse": "RN 23 - LES FOSSES",
     "ville": "Champagné"
@@ -193,7 +193,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "ROUTE DE SILLE",
