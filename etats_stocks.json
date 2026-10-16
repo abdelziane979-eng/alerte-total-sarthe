@@ -22,7 +22,7 @@
   "72650002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -62,9 +62,9 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "dispo"
     },
     "adresse": "ROUTE DE LAVAL",
     "ville": "Le Mans"
@@ -92,7 +92,7 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -104,7 +104,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
     "ville": "Chaufour-Notre-Dame"
@@ -222,7 +222,7 @@
   "72000020": {
     "etats": {
       "sp95": "def",
-      "e10": null,
+      "e10": "temp",
       "sp98": "temp",
       "gazole": null
     },
