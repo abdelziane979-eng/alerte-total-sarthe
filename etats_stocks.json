@@ -14,7 +14,7 @@
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -33,7 +33,7 @@
     "etats": {
       "sp95": null,
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "1 Rue Nationale",
@@ -43,7 +43,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": null,
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "RN 23 - AERODROME",
@@ -64,7 +64,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "ROUTE DE LAVAL",
     "ville": "Le Mans"
@@ -72,7 +72,7 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -104,7 +104,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
     "ville": "Chaufour-Notre-Dame"
@@ -134,7 +134,7 @@
       "sp95": "def",
       "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "RN 23 - LES FOSSES",
     "ville": "Champagné"
@@ -161,7 +161,7 @@
   },
   "72120003": {
     "etats": {
-      "sp95": null,
+      "sp95": "dispo",
       "e10": "def",
       "sp98": "def",
       "gazole": "dispo"
@@ -182,7 +182,7 @@
   "72100004": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -233,7 +233,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "9936 AVENUE DE TALHOUET",
@@ -251,10 +251,10 @@
   },
   "72310002": {
     "etats": {
-      "sp95": "dispo",
+      "sp95": "temp",
       "e10": "def",
       "sp98": "def",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "47 rue du bal de braye",
     "ville": "Bessé-sur-Braye"
