@@ -52,7 +52,7 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -62,7 +62,7 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -72,7 +72,7 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": null,
+      "e10": "temp",
       "sp98": "temp",
       "gazole": null
     },
@@ -84,7 +84,7 @@
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "temp"
     },
     "adresse": "44 Rue de Bonnétable",
     "ville": "Le Mans"
@@ -112,8 +112,8 @@
   "72190004": {
     "etats": {
       "sp95": "def",
-      "e10": null,
-      "sp98": "temp",
+      "e10": "dispo",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "A11-AIRE SARTHE SARGE LE MANS NORD",
@@ -132,7 +132,7 @@
   "72470004": {
     "etats": {
       "sp95": "def",
-      "e10": null,
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "temp"
     },
@@ -222,7 +222,7 @@
   "72000020": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -244,7 +244,7 @@
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
