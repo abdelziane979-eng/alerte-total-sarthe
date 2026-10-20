@@ -44,7 +44,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -244,7 +244,7 @@
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
