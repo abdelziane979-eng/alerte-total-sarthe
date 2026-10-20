@@ -102,9 +102,9 @@
   "72550002": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "temp"
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
     "ville": "Chaufour-Notre-Dame"
@@ -132,9 +132,9 @@
   "72470004": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": null,
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "RN 23 - LES FOSSES",
     "ville": "Champagné"
@@ -232,7 +232,7 @@
   "72800003": {
     "etats": {
       "sp95": "def",
-      "e10": null,
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "temp"
     },
