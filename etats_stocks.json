@@ -161,10 +161,10 @@
   },
   "72120003": {
     "etats": {
-      "sp95": "dispo",
+      "sp95": "temp",
       "e10": "def",
       "sp98": "def",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "7 Avenue Charles de Gaulle",
     "ville": "Saint-Calais"
@@ -242,7 +242,7 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
