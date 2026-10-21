@@ -54,7 +54,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "LE SOLEIL",
     "ville": "Écommoy"
@@ -142,9 +142,9 @@
   "72170004": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "def",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "GARE DE PEAGE MARESCHE A28",
     "ville": "Maresché"
@@ -161,10 +161,10 @@
   },
   "72120003": {
     "etats": {
-      "sp95": "temp",
+      "sp95": null,
       "e10": "def",
       "sp98": "def",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "7 Avenue Charles de Gaulle",
     "ville": "Saint-Calais"
@@ -222,7 +222,7 @@
   "72000020": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -242,9 +242,9 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
