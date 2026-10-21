@@ -14,7 +14,7 @@
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -22,7 +22,7 @@
   "72650002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -32,9 +32,9 @@
   "72440002": {
     "etats": {
       "sp95": null,
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "1 Rue Nationale",
     "ville": "Bouloire"
@@ -62,8 +62,8 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "ROUTE DE LAVAL",
@@ -72,9 +72,9 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
     "ville": "Le Mans"
@@ -84,7 +84,7 @@
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "44 Rue de Bonnétable",
     "ville": "Le Mans"
@@ -93,7 +93,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
@@ -132,9 +132,9 @@
   "72470004": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": null,
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "RN 23 - LES FOSSES",
     "ville": "Champagné"
@@ -161,10 +161,10 @@
   },
   "72120003": {
     "etats": {
-      "sp95": null,
+      "sp95": "temp",
       "e10": "def",
       "sp98": "def",
-      "gazole": null
+      "gazole": "temp"
     },
     "adresse": "7 Avenue Charles de Gaulle",
     "ville": "Saint-Calais"
@@ -212,9 +212,9 @@
   "72301001": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "Avenue Jean Monnet",
     "ville": "Solesmes"
@@ -232,9 +232,9 @@
   "72800003": {
     "etats": {
       "sp95": "def",
-      "e10": null,
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "dispo"
     },
     "adresse": "9936 AVENUE DE TALHOUET",
     "ville": "Le Lude"
