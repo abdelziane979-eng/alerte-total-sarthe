@@ -13,7 +13,7 @@
     "etats": {
       "sp95": "temp",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "314 AV RHIN ET DANUBE",
@@ -53,7 +53,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "LE SOLEIL",
@@ -62,9 +62,9 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
-      "gazole": "dispo"
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
     },
     "adresse": "ROUTE DE LAVAL",
     "ville": "Le Mans"
@@ -72,8 +72,8 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
+      "e10": "dispo",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
@@ -94,7 +94,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
     "ville": "Fresnay-sur-Sarthe"
@@ -234,7 +234,7 @@
       "sp95": "def",
       "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "9936 AVENUE DE TALHOUET",
     "ville": "Le Lude"
