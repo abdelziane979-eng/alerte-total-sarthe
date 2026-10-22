@@ -12,9 +12,9 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -43,7 +43,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": null,
+      "sp98": "temp",
       "gazole": null
     },
     "adresse": "RN 23 - AERODROME",
@@ -62,9 +62,9 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "ROUTE DE LAVAL",
     "ville": "Le Mans"
@@ -184,7 +184,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "AVENUE FELIX GENESLAY",
     "ville": "Le Mans"
@@ -222,7 +222,7 @@
   "72000020": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -242,9 +242,9 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
-      "sp98": "dispo",
-      "gazole": "dispo"
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
