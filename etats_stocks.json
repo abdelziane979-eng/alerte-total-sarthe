@@ -24,7 +24,7 @@
       "sp95": "def",
       "e10": "dispo",
       "sp98": "dispo",
-      "gazole": "dispo"
+      "gazole": null
     },
     "adresse": "RN 157 - LE RELAIS DE LA LANDE",
     "ville": "Trangé"
@@ -73,7 +73,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
@@ -83,7 +83,7 @@
     "etats": {
       "sp95": "temp",
       "e10": "temp",
-      "sp98": "temp",
+      "sp98": null,
       "gazole": null
     },
     "adresse": "44 Rue de Bonnétable",
@@ -102,8 +102,8 @@
   "72550002": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
+      "e10": "dispo",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
@@ -133,7 +133,7 @@
     "etats": {
       "sp95": "def",
       "e10": null,
-      "sp98": null,
+      "sp98": "temp",
       "gazole": "temp"
     },
     "adresse": "RN 23 - LES FOSSES",
@@ -244,7 +244,7 @@
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
