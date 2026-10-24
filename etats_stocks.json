@@ -44,7 +44,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "temp"
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -93,7 +93,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
@@ -224,7 +224,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "temp"
     },
     "adresse": "162, AVENUE BOLLEE",
     "ville": "Le Mans"
@@ -242,9 +242,9 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": null,
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
