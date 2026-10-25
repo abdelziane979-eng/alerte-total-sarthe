@@ -2,7 +2,7 @@ name: Alerte Total Sarthe
 
 on:
   schedule:
-    - cron: '    - cron: '5,15,25,35,45,55 * * * *'
+  - cron: '5,15,25,35,45,55 * * * *'
   workflow_dispatch:
 
 jobs:
