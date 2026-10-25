@@ -3,7 +3,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "A11 - AIRE SARTHE SARGE LE MANS SUD",
@@ -64,7 +64,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "ROUTE DE LAVAL",
     "ville": "Le Mans"
@@ -92,7 +92,7 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -113,7 +113,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "A11-AIRE SARTHE SARGE LE MANS NORD",
@@ -142,9 +142,9 @@
   "72170004": {
     "etats": {
       "sp95": "def",
-      "e10": null,
+      "e10": "dispo",
       "sp98": "def",
-      "gazole": null
+      "gazole": "dispo"
     },
     "adresse": "GARE DE PEAGE MARESCHE A28",
     "ville": "Maresché"
@@ -224,7 +224,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "162, AVENUE BOLLEE",
     "ville": "Le Mans"
@@ -242,9 +242,9 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": null,
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
