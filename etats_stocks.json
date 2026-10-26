@@ -3,7 +3,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "A11 - AIRE SARTHE SARGE LE MANS SUD",
@@ -12,9 +12,9 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -22,7 +22,7 @@
   "72650002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": null
     },
@@ -43,8 +43,8 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "sp98": null,
+      "gazole": null
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -52,8 +52,8 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "LE SOLEIL",
@@ -72,9 +72,9 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
     "ville": "Le Mans"
@@ -94,7 +94,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
     "ville": "Fresnay-sur-Sarthe"
@@ -103,7 +103,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
@@ -112,7 +112,7 @@
   "72190004": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": null,
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -142,9 +142,9 @@
   "72170004": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "def",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "GARE DE PEAGE MARESCHE A28",
     "ville": "Maresché"
@@ -161,10 +161,10 @@
   },
   "72120003": {
     "etats": {
-      "sp95": null,
+      "sp95": "dispo",
       "e10": "def",
       "sp98": "def",
-      "gazole": null
+      "gazole": "dispo"
     },
     "adresse": "7 Avenue Charles de Gaulle",
     "ville": "Saint-Calais"
@@ -182,8 +182,8 @@
   "72100004": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
+      "e10": "dispo",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "AVENUE FELIX GENESLAY",
@@ -192,9 +192,9 @@
   "72350001": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "ROUTE DE SILLE",
     "ville": "Brûlon"
@@ -222,9 +222,9 @@
   "72000020": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": null,
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "162, AVENUE BOLLEE",
     "ville": "Le Mans"
@@ -232,9 +232,9 @@
   "72800003": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": null
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "temp"
     },
     "adresse": "9936 AVENUE DE TALHOUET",
     "ville": "Le Lude"
@@ -251,10 +251,10 @@
   },
   "72310002": {
     "etats": {
-      "sp95": "temp",
+      "sp95": "dispo",
       "e10": "def",
       "sp98": "def",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "47 rue du bal de braye",
     "ville": "Bessé-sur-Braye"
