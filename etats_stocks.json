@@ -24,7 +24,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "temp"
     },
     "adresse": "RN 157 - LE RELAIS DE LA LANDE",
     "ville": "Trangé"
@@ -62,9 +62,9 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "ROUTE DE LAVAL",
     "ville": "Le Mans"
@@ -72,8 +72,8 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
@@ -104,7 +104,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
     "ville": "Chaufour-Notre-Dame"
@@ -132,9 +132,9 @@
   "72470004": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "RN 23 - LES FOSSES",
     "ville": "Champagné"
@@ -244,7 +244,7 @@
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
