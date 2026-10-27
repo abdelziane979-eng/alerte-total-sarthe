@@ -12,9 +12,9 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -44,7 +44,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -52,7 +52,7 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -62,8 +62,8 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "ROUTE DE LAVAL",
@@ -72,7 +72,7 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": null,
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -132,9 +132,9 @@
   "72470004": {
     "etats": {
       "sp95": "def",
-      "e10": null,
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "temp"
     },
     "adresse": "RN 23 - LES FOSSES",
     "ville": "Champagné"
@@ -161,7 +161,7 @@
   },
   "72120003": {
     "etats": {
-      "sp95": "dispo",
+      "sp95": "temp",
       "e10": "def",
       "sp98": "def",
       "gazole": "dispo"
@@ -182,8 +182,8 @@
   "72100004": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "AVENUE FELIX GENESLAY",
@@ -212,9 +212,9 @@
   "72301001": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "Avenue Jean Monnet",
     "ville": "Solesmes"
@@ -234,7 +234,7 @@
       "sp95": "def",
       "e10": "dispo",
       "sp98": "dispo",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "9936 AVENUE DE TALHOUET",
     "ville": "Le Lude"
@@ -242,8 +242,8 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": null,
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
