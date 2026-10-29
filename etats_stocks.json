@@ -12,9 +12,9 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -32,8 +32,8 @@
   "72440002": {
     "etats": {
       "sp95": null,
-      "e10": "temp",
-      "sp98": "temp",
+      "e10": "dispo",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "1 Rue Nationale",
@@ -43,8 +43,8 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "sp98": null,
+      "gazole": null
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -62,7 +62,7 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -83,7 +83,7 @@
     "etats": {
       "sp95": "temp",
       "e10": "temp",
-      "sp98": null,
+      "sp98": "temp",
       "gazole": null
     },
     "adresse": "44 Rue de Bonnétable",
@@ -92,8 +92,8 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
+      "e10": null,
+      "sp98": null,
       "gazole": "dispo"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
@@ -161,7 +161,7 @@
   },
   "72120003": {
     "etats": {
-      "sp95": "temp",
+      "sp95": "dispo",
       "e10": "def",
       "sp98": "def",
       "gazole": "dispo"
@@ -182,8 +182,8 @@
   "72100004": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "AVENUE FELIX GENESLAY",
@@ -232,7 +232,7 @@
   "72800003": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "temp"
     },
@@ -242,7 +242,7 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -251,7 +251,7 @@
   },
   "72310002": {
     "etats": {
-      "sp95": "dispo",
+      "sp95": "temp",
       "e10": "def",
       "sp98": "def",
       "gazole": "dispo"
