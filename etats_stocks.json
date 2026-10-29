@@ -12,9 +12,9 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -24,7 +24,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "temp"
     },
     "adresse": "RN 157 - LE RELAIS DE LA LANDE",
     "ville": "Trangé"
@@ -43,7 +43,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": null,
+      "sp98": "temp",
       "gazole": null
     },
     "adresse": "RN 23 - AERODROME",
@@ -62,7 +62,7 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -72,7 +72,7 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": null,
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -92,8 +92,8 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": null,
-      "sp98": null,
+      "e10": "dispo",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
@@ -132,9 +132,9 @@
   "72470004": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "RN 23 - LES FOSSES",
     "ville": "Champagné"
@@ -232,9 +232,9 @@
   "72800003": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": null,
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "9936 AVENUE DE TALHOUET",
     "ville": "Le Lude"
@@ -242,9 +242,9 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
@@ -254,7 +254,7 @@
       "sp95": "temp",
       "e10": "def",
       "sp98": "def",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "47 rue du bal de braye",
     "ville": "Bessé-sur-Braye"
