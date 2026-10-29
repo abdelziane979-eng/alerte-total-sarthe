@@ -44,7 +44,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -73,7 +73,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
@@ -132,9 +132,9 @@
   "72470004": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "RN 23 - LES FOSSES",
     "ville": "Champagné"
@@ -142,7 +142,7 @@
   "72170004": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": null,
       "sp98": "def",
       "gazole": "dispo"
     },
@@ -234,7 +234,7 @@
       "sp95": "def",
       "e10": "dispo",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "9936 AVENUE DE TALHOUET",
     "ville": "Le Lude"
