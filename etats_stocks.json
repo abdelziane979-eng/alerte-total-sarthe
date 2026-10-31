@@ -72,8 +72,8 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": null,
-      "sp98": null,
+      "e10": "dispo",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
