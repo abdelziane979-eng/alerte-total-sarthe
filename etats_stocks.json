@@ -13,8 +13,8 @@
     "etats": {
       "sp95": "temp",
       "e10": "temp",
-      "sp98": null,
-      "gazole": "dispo"
+      "sp98": "temp",
+      "gazole": "temp"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -133,7 +133,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "temp"
     },
     "adresse": "RN 23 - LES FOSSES",
@@ -224,7 +224,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "162, AVENUE BOLLEE",
     "ville": "Le Mans"
