@@ -12,8 +12,8 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": null,
       "gazole": "dispo"
     },
     "adresse": "314 AV RHIN ET DANUBE",
@@ -43,8 +43,8 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": null,
-      "gazole": null
+      "sp98": "temp",
+      "gazole": "temp"
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -62,7 +62,7 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -72,7 +72,7 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -134,7 +134,7 @@
       "sp95": "def",
       "e10": "dispo",
       "sp98": "dispo",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "RN 23 - LES FOSSES",
     "ville": "Champagné"
@@ -182,7 +182,7 @@
   "72100004": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "dispo",
       "gazole": "dispo"
     },
@@ -222,7 +222,7 @@
   "72000020": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -243,7 +243,7 @@
     "etats": {
       "sp95": "temp",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
