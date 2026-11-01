@@ -14,7 +14,7 @@
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -43,7 +43,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": null,
+      "sp98": "temp",
       "gazole": null
     },
     "adresse": "RN 23 - AERODROME",
@@ -74,7 +74,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
     "ville": "Le Mans"
@@ -132,7 +132,7 @@
   "72470004": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "temp"
     },
@@ -224,7 +224,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "162, AVENUE BOLLEE",
     "ville": "Le Mans"
