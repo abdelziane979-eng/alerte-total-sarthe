@@ -3,7 +3,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "A11 - AIRE SARTHE SARGE LE MANS SUD",
@@ -12,7 +12,7 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -92,8 +92,8 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
@@ -113,7 +113,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": null,
       "gazole": "dispo"
     },
     "adresse": "A11-AIRE SARTHE SARGE LE MANS NORD",
