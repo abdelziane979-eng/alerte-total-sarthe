@@ -44,7 +44,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -62,7 +62,7 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "dispo",
       "gazole": "dispo"
     },
@@ -84,7 +84,7 @@
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "44 Rue de Bonnétable",
     "ville": "Le Mans"
@@ -122,7 +122,7 @@
   "72200003": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "def",
       "gazole": "dispo"
     },
@@ -182,7 +182,7 @@
   "72100004": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -212,7 +212,7 @@
   "72301001": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -232,9 +232,9 @@
   "72800003": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "9936 AVENUE DE TALHOUET",
     "ville": "Le Lude"
@@ -242,9 +242,9 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
@@ -263,7 +263,7 @@
     "etats": {
       "sp95": "def",
       "e10": "def",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "27 ROUTE DU MANS",
