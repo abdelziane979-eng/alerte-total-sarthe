@@ -113,7 +113,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": null,
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "A11-AIRE SARTHE SARGE LE MANS NORD",
