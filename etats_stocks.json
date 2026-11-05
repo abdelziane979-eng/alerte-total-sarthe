@@ -24,7 +24,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "RN 157 - LE RELAIS DE LA LANDE",
     "ville": "Trangé"
@@ -52,7 +52,7 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -62,7 +62,7 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -72,9 +72,9 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
     "ville": "Le Mans"
@@ -82,7 +82,7 @@
   "72000010": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": null,
       "sp98": "temp",
       "gazole": null
     },
@@ -92,9 +92,9 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
-      "gazole": "dispo"
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
     "ville": "Fresnay-sur-Sarthe"
@@ -103,7 +103,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
