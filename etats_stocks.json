@@ -12,9 +12,9 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
-      "sp98": "dispo",
-      "gazole": "dispo"
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "temp"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -32,9 +32,9 @@
   "72440002": {
     "etats": {
       "sp95": null,
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "1 Rue Nationale",
     "ville": "Bouloire"
@@ -72,7 +72,7 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -222,9 +222,9 @@
   "72000020": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "162, AVENUE BOLLEE",
     "ville": "Le Mans"
