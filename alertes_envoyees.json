@@ -118,5 +118,10 @@
     "ville": "Luceau",
     "adresse": "27 ROUTE DU MANS",
     "derniere_alerte": "2026-11-04T15:46:00.578155"
+  },
+  "72220001": {
+    "ville": "Écommoy",
+    "adresse": "CENTRE COMMERCIAL LE BELINOIS",
+    "derniere_alerte": "2026-11-09T10:14:04.702997"
   }
 }

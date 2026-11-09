@@ -22,7 +22,7 @@
   "72650002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -44,7 +44,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": null
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -52,7 +52,7 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -72,9 +72,9 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
     "ville": "Le Mans"
@@ -92,9 +92,9 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "6 AVENUE DIVISION LECLERC",
     "ville": "Fresnay-sur-Sarthe"
@@ -103,7 +103,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
@@ -161,7 +161,7 @@
   },
   "72120003": {
     "etats": {
-      "sp95": "dispo",
+      "sp95": "temp",
       "e10": "def",
       "sp98": "def",
       "gazole": "dispo"
@@ -183,7 +183,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "AVENUE FELIX GENESLAY",
@@ -192,7 +192,7 @@
   "72350001": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -224,7 +224,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "162, AVENUE BOLLEE",
     "ville": "Le Mans"
@@ -242,16 +242,16 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
   },
   "72310002": {
     "etats": {
-      "sp95": "temp",
+      "sp95": "dispo",
       "e10": "def",
       "sp98": "def",
       "gazole": "dispo"
