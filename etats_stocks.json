@@ -44,7 +44,7 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "dispo"
     },
     "adresse": "RN 23 - AERODROME",
     "ville": "Le Mans"
@@ -62,7 +62,7 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -133,8 +133,8 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "dispo",
-      "gazole": "dispo"
+      "sp98": "temp",
+      "gazole": "temp"
     },
     "adresse": "RN 23 - LES FOSSES",
     "ville": "Champagné"
@@ -242,7 +242,7 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
