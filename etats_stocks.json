@@ -9,16 +9,6 @@
     "adresse": "A11 - AIRE SARTHE SARGE LE MANS SUD",
     "ville": "Sargé-lès-le-Mans"
   },
-  "72000019": {
-    "etats": {
-      "sp95": "temp",
-      "e10": "dispo",
-      "sp98": "temp",
-      "gazole": "dispo"
-    },
-    "adresse": "314 AV RHIN ET DANUBE",
-    "ville": "Le Mans"
-  },
   "72650002": {
     "etats": {
       "sp95": "def",
@@ -44,9 +34,19 @@
       "sp95": "def",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "RN 23 - AERODROME",
+    "ville": "Le Mans"
+  },
+  "72000019": {
+    "etats": {
+      "sp95": "temp",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "dispo"
+    },
+    "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
   },
   "72220002": {
@@ -92,7 +92,7 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -142,7 +142,7 @@
   "72170004": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "def",
       "gazole": "dispo"
     },
@@ -213,7 +213,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "162, AVENUE BOLLEE",
@@ -232,8 +232,8 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
