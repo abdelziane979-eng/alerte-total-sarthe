@@ -19,16 +19,6 @@
     "adresse": "RN 157 - LE RELAIS DE LA LANDE",
     "ville": "Trangé"
   },
-  "72440002": {
-    "etats": {
-      "sp95": null,
-      "e10": "dispo",
-      "sp98": "dispo",
-      "gazole": "dispo"
-    },
-    "adresse": "1 Rue Nationale",
-    "ville": "Bouloire"
-  },
   "72100013": {
     "etats": {
       "sp95": "def",
@@ -42,7 +32,7 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -52,7 +42,7 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -62,9 +52,9 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "ROUTE DE LAVAL",
     "ville": "Le Mans"
@@ -72,19 +62,29 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
     "ville": "Le Mans"
+  },
+  "72440002": {
+    "etats": {
+      "sp95": null,
+      "e10": "dispo",
+      "sp98": "temp",
+      "gazole": "dispo"
+    },
+    "adresse": "1 Rue Nationale",
+    "ville": "Bouloire"
   },
   "72000010": {
     "etats": {
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": null
+      "gazole": "dispo"
     },
     "adresse": "44 Rue de Bonnétable",
     "ville": "Le Mans"
@@ -103,7 +103,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
@@ -161,7 +161,7 @@
   },
   "72120003": {
     "etats": {
-      "sp95": "temp",
+      "sp95": "dispo",
       "e10": "def",
       "sp98": "def",
       "gazole": "dispo"
