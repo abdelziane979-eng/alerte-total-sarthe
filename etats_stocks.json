@@ -32,9 +32,9 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -42,9 +42,9 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": null,
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": null
     },
     "adresse": "LE SOLEIL",
     "ville": "Écommoy"
@@ -52,7 +52,7 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -212,7 +212,7 @@
   "72000020": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": null,
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -232,7 +232,7 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
