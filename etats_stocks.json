@@ -39,16 +39,6 @@
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
   },
-  "72220002": {
-    "etats": {
-      "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "dispo"
-    },
-    "adresse": "LE SOLEIL",
-    "ville": "Écommoy"
-  },
   "72000021": {
     "etats": {
       "sp95": "def",
@@ -58,6 +48,16 @@
     },
     "adresse": "ROUTE DE LAVAL",
     "ville": "Le Mans"
+  },
+  "72220002": {
+    "etats": {
+      "sp95": "def",
+      "e10": "temp",
+      "sp98": "temp",
+      "gazole": "dispo"
+    },
+    "adresse": "LE SOLEIL",
+    "ville": "Écommoy"
   },
   "72100012": {
     "etats": {
