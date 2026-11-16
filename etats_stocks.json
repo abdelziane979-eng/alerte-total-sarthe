@@ -3,7 +3,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "A11 - AIRE SARTHE SARGE LE MANS SUD",
@@ -23,7 +23,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": "temp",
+      "sp98": null,
       "gazole": "dispo"
     },
     "adresse": "RN 23 - AERODROME",
@@ -32,9 +32,9 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
-      "gazole": "dispo"
+      "gazole": "temp"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -42,8 +42,8 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
+      "e10": "dispo",
+      "sp98": "dispo",
       "gazole": "temp"
     },
     "adresse": "ROUTE DE LAVAL",
@@ -52,7 +52,7 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -62,9 +62,9 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
     "ville": "Le Mans"
@@ -82,7 +82,7 @@
   "72000010": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": null,
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -92,7 +92,7 @@
   "72130006": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
