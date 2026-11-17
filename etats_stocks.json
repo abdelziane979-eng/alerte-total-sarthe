@@ -23,7 +23,7 @@
     "etats": {
       "sp95": "def",
       "e10": "temp",
-      "sp98": null,
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "RN 23 - AERODROME",
