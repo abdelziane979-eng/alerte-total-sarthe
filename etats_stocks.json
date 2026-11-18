@@ -12,7 +12,7 @@
   "72650002": {
     "etats": {
       "sp95": "def",
-      "e10": null,
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -34,7 +34,7 @@
       "sp95": "temp",
       "e10": "temp",
       "sp98": "temp",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -52,8 +52,8 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
+      "e10": "dispo",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "LE SOLEIL",
@@ -133,7 +133,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "RN 23 - LES FOSSES",
@@ -173,7 +173,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "AVENUE FELIX GENESLAY",
@@ -182,8 +182,8 @@
   "72350001": {
     "etats": {
       "sp95": "def",
-      "e10": null,
-      "sp98": null,
+      "e10": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "ROUTE DE SILLE",
@@ -213,7 +213,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "162, AVENUE BOLLEE",
@@ -233,7 +233,7 @@
     "etats": {
       "sp95": "temp",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
