@@ -42,7 +42,7 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -52,7 +52,7 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -62,8 +62,8 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
-      "sp98": "dispo",
+      "e10": "temp",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
@@ -103,7 +103,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "RELAIS DE LA COLOMBERIE LA GROIE RD357",
@@ -213,7 +213,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "162, AVENUE BOLLEE",
