@@ -42,8 +42,8 @@
   "72000021": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "temp",
+      "e10": "dispo",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "ROUTE DE LAVAL",
@@ -52,7 +52,7 @@
   "72220002": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -182,7 +182,7 @@
   "72350001": {
     "etats": {
       "sp95": "def",
-      "e10": "dispo",
+      "e10": "temp",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -213,7 +213,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "162, AVENUE BOLLEE",
@@ -223,7 +223,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": "dispo",
       "gazole": "dispo"
     },
     "adresse": "9936 AVENUE DE TALHOUET",
@@ -232,7 +232,7 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
+      "e10": "dispo",
       "sp98": "temp",
       "gazole": "dispo"
     },
@@ -244,7 +244,7 @@
       "sp95": "dispo",
       "e10": "def",
       "sp98": "def",
-      "gazole": "temp"
+      "gazole": "dispo"
     },
     "adresse": "47 rue du bal de braye",
     "ville": "Bessé-sur-Braye"
