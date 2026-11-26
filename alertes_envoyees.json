@@ -123,5 +123,10 @@
     "ville": "Écommoy",
     "adresse": "CENTRE COMMERCIAL LE BELINOIS",
     "derniere_alerte": "2026-11-09T10:14:04.702997"
+  },
+  "72000010": {
+    "ville": "Le Mans",
+    "adresse": "44 Rue de Bonnétable",
+    "derniere_alerte": "2026-11-26T14:04:08.324879"
   }
 }
