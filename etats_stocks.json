@@ -32,9 +32,9 @@
   "72000019": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "314 AV RHIN ET DANUBE",
     "ville": "Le Mans"
@@ -62,8 +62,8 @@
   "72100012": {
     "etats": {
       "sp95": "def",
-      "e10": "temp",
-      "sp98": "dispo",
+      "e10": "dispo",
+      "sp98": "temp",
       "gazole": "dispo"
     },
     "adresse": "146 AVENUE DU DR JEAN MAC",
@@ -83,7 +83,7 @@
     "etats": {
       "sp95": "temp",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": null,
       "gazole": "dispo"
     },
     "adresse": "44 Rue de Bonnétable",
@@ -123,7 +123,7 @@
     "etats": {
       "sp95": "def",
       "e10": "dispo",
-      "sp98": "temp",
+      "sp98": null,
       "gazole": "dispo"
     },
     "adresse": "RN 23 - LES FOSSES",
@@ -232,9 +232,9 @@
   "72100014": {
     "etats": {
       "sp95": "temp",
-      "e10": "temp",
-      "sp98": "temp",
-      "gazole": "temp"
+      "e10": "dispo",
+      "sp98": "dispo",
+      "gazole": "dispo"
     },
     "adresse": "110 -112 BLD DEMORIEUX",
     "ville": "Le Mans"
